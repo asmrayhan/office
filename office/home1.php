@@ -1,12 +1,13 @@
-<?php
-require 'config.php';
-
-?>
-
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Home page</title>
+<title>login page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Novus Admin Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -62,19 +63,18 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 						<li>
 							<a href="#"><i class="fa fa-cogs nav_icon"></i>Components <span class="nav-badge">12</span> <span class="fa arrow"></span></a>
 							<ul class="nav nav-second-level collapse">
-								
 								<li>
-									<a href="airstate.php">AIR STATE</a>
+									<a href="airstate.php">Air State</a>
 								</li>
 								<li>
-									<a href="employee.php">Show Employes</a>
+									<a href="empl1.php">Employee</a>
 								</li>
-								<li>
+								<!--li >
 									<a href="grids.html">Grid System</a>
 								</li>
 								<li>
 									<a href="media.html">Media Objects</a>
-								</li>
+								</li-->
 							</ul>
 							<!-- /nav-second-level -->
 						</li>
@@ -152,15 +152,15 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<!--toggle button end-->
 				<!--logo -->
 				<div class="logo">
-					<a href="index.html">
-						<h1>Office  </h1>
+					<a href="home1.php">
+						<h1>Office</h1>
 						<span>AdminPanel</span>
 					</a>
 				</div>
 				<!--//logo-->
 				<!--search-box-->
 				<div class="search-box">
-					<form class="input" method="POST" action="" >
+					<form class="input">
 						<input class="sb-search-input input__field--madoka" placeholder="Search..." type="search" id="input-31" />
 						<label class="input__label" for="input-31">
 							<svg class="graphic" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
@@ -312,7 +312,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 						<li class="dropdown profile_details_drop">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 								<div class="profile_img">	
-									<span class="prfil-img"><img src="images/fig1.png" alt=""> </span> 
+									<span class="prfil-img"><img src="images/fig1.png" class="img-circle" alt="Admin Picture"> </span> 
 									<div class="user-name">
 										<p>Wikolia</p>
 										<span>Administrator</span>
@@ -325,7 +325,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							<ul class="dropdown-menu drp-mnu">
 								<li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li> 
 								<li> <a href="#"><i class="fa fa-user"></i> Profile</a> </li> 
-								<li> <a href="login.php"><i class="fa fa-sign-out"></i> Logout</a> </li>
+								<li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
 							</ul>
 						</li>
 					</ul>
@@ -341,8 +341,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<div class="row-one">
 					<div class="col-md-4 widget">
 						<div class="stats-left ">
-							<h5>Total</h5>
-							<h4>Strength</h4>
+							<h5>Today</h5>
+							<h4>Sales</h4>
 						</div>
 						<div class="stats-right">
 							<label> 45</label>
@@ -359,10 +359,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="clearfix"> </div>	
 					</div>
-					
-
-
-
 					<div class="col-md-4 widget states-last">
 						<div class="stats-left">
 							<h5>Today</h5>
@@ -557,7 +553,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="row">
 					<div class="col-md-8 map widget-shadow">
-						<h4 class="title">Visitors Map </h4>
+						<h4 class="title">World Map </h4>
 						<div class="map_container"><div id="vmap" style="width: 100%; height: 354px;"></div></div>
 						<!--map js-->
 						<link href="css/jqvmap.css" rel='stylesheet' type='text/css' />
@@ -688,7 +684,9 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<!--footer-->
 		<div class="footer">
-		   <p>&copy; 2016 Novus Admin Panel. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts</a></p>
+			<marquee>
+		   <p>Design by " Sgt A.S.M. RAYHAN CHOWDHURY E&I FITT "</p>
+		</marquee>
 		</div>
         <!--//footer-->
 	</div>

@@ -1,9 +1,9 @@
 
-
 <?php
 require 'config.php';
 
 ?>
+
 
 <!DOCTYPE html>
 <html>

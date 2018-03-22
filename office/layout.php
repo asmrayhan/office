@@ -1,7 +1,13 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Home page</title>
+<title>Novus Admin Panel an Admin Panel Category Flat Bootstrap Responsive Website Template | Grids :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Novus Admin Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -28,16 +34,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 		 new WOW().init();
 	</script>
 <!--//end-animate-->
-<!-- chart -->
-<script src="js/Chart.js"></script>
-<!-- //chart -->
-<!--Calender-->
-<link rel="stylesheet" href="css/clndr.css" type="text/css" />
-<script src="js/underscore-min.js" type="text/javascript"></script>
-<script src= "js/moment-2.2.1.js" type="text/javascript"></script>
-<script src="js/clndr.js" type="text/javascript"></script>
-<script src="js/site.js" type="text/javascript"></script>
-<!--End Calender-->
 <!-- Metis Menu -->
 <script src="js/metisMenu.min.js"></script>
 <script src="js/custom.js"></script>
@@ -52,14 +48,16 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
 					<ul class="nav" id="side-menu">
 						<li>
-							<a href="index.php" class="active"><i class="fa fa-home nav_icon"></i>Dashboard</a>
+							<a href="index.html"><i class="fa fa-home nav_icon"></i>Dashboard</a>
 						</li>
 						<li>
 							<a href="#"><i class="fa fa-cogs nav_icon"></i>Components <span class="nav-badge">12</span> <span class="fa arrow"></span></a>
 							<ul class="nav nav-second-level collapse">
-								
 								<li>
 									<a href="airstate.php">AIR STATE</a>
+								</li>
+								<li>
+									<a href="employee.php">Show Employes</a>
 								</li>
 								<li>
 									<a href="grids.html">Grid System</a>
@@ -131,6 +129,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							<a href="charts.html" class="chart-nav"><i class="fa fa-bar-chart nav_icon"></i>Charts <span class="nav-badge-btm pull-right">new</span></a>
 						</li>
 					</ul>
+					<div class="clearfix"> </div>
 					<!-- //sidebar-collapse -->
 				</nav>
 			</div>
@@ -145,14 +144,14 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<!--logo -->
 				<div class="logo">
 					<a href="index.html">
-						<h1>Office  </h1>
+						<h1>NOVUS</h1>
 						<span>AdminPanel</span>
 					</a>
 				</div>
 				<!--//logo-->
 				<!--search-box-->
 				<div class="search-box">
-					<form class="input" method="POST" action="" >
+					<form class="input">
 						<input class="sb-search-input input__field--madoka" placeholder="Search..." type="search" id="input-31" />
 						<label class="input__label" for="input-31">
 							<svg class="graphic" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
@@ -317,25 +316,23 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							<ul class="dropdown-menu drp-mnu">
 								<li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li> 
 								<li> <a href="#"><i class="fa fa-user"></i> Profile</a> </li> 
-								<li> <a href="login.php"><i class="fa fa-sign-out"></i> Logout</a> </li>
+								<li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
 							</ul>
 						</li>
 					</ul>
 				</div>
-				<div class="clearfix"> </div>				
+				<div class="clearfix"> </div>	
 			</div>
 			<div class="clearfix"> </div>	
 		</div>
 		<!-- //header-ends -->
 		<!-- main content start-->
+		<div id="page-wrapper">
+			<div class="main-page">
 		
 
-					<!--footer-->
-		<div class="footer">
-		   <p>&copy; 2016 Novus Admin Panel. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts</a></p>
-		</div>
-        <!--//footer-->
-	</div>
+
+		
 	<!-- Classie -->
 		<script src="js/classie.js"></script>
 		<script>
@@ -350,7 +347,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				disableOther( 'showLeftPush' );
 			};
 			
-
 			function disableOther( button ) {
 				if( button !== 'showLeftPush' ) {
 					classie.toggle( showLeftPush, 'disabled' );
